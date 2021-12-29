@@ -20,7 +20,7 @@ from datetime import datetime, timedelta
 
 # In[2]:
 
-file_path = '/media/ryan/Charlemagne/data/basketball/2016_march_madness/data/'
+file_path = '/data/basketball/2016_march_madness/data/'
 
 reg_df = pd.read_csv(file_path + 'RegularSeasonDetailedResults.csv')
 teams_df = pd.read_csv(file_path + 'Teams.csv')
