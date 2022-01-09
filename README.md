@@ -29,6 +29,21 @@ Sports Data Analytics
   ```
   ~[]() <br/>
 
+- RHEL7/CentOS7
+  - INstall python epel, python dependencies, vitualenv, pip, jupyter
+  ```
+  $sudo yum install epel-release
+
+  ## Requires the following for RHEL7: --enablerepo=rhel-7-server-optional-rpms
+  $sudo yum install -y python3-pip python3-devel python3-virtualenv --enablerepo=rhel-7-server-optional-rpms
+  $sudo yum groupinstall 'Development Tools'
+
+  $python3 -m venv jupyter_project_env
+  $source jupyter_project_env/bin/activate
+  (jupyter_project_env) [user@system ~]$pip3 install jupyter
+  (jupyter_project_env) [user@system ~]$pip3 install --upgrade pip
+  ```
+
 ##### Using Massey and Colley Ratings
 - Massey 
   - A linear system using the score differential of games
