@@ -27,7 +27,7 @@ Sports Data Analytics
   ```
   $(jupyter_project_env) jupyter notebook
   ```
-  ~[]() <br/>
+  ![https://github.com/lel99999/dev_SportsDA/blob/main/jupyternotebook_browser-01.png](https://github.com/lel99999/dev_SportsDA/blob/main/jupyternotebook_browser-01.png) <br/>
 
 - RHEL7/CentOS7
   - INstall python epel, python dependencies, vitualenv, pip, jupyter
