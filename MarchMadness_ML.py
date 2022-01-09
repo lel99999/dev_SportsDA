@@ -124,9 +124,9 @@ reg_df.columns
 
 # In[35]:
 
-print(reg_df[reg_df['Season'] == 2011].head(5))
-reg2011_df = reg_df[reg_df['Season'] == 2011]
-team_name_list = reg2011_df['Wteam_name'].unique()
+print(reg_df[reg_df['Season'] == 2003].head(5))
+reg20xx_df = reg_df[reg_df['Season'] == 2003]
+team_name_list = reg20xx_df['Wteam_name'].unique()
 print(len(team_name_list))
 
 
@@ -139,7 +139,7 @@ M = np.zeros((num_teams,num_teams))
 
 # In[45]:
 
-team_games = reg2011_df[(reg2011_df['Wteam_name'] == team_name_list[0]) | (reg2011_df['Lteam_name'] == team_name_list[0])]
+team_games = reg20xx_df[(reg20xx_df['Wteam_name'] == team_name_list[0]) | (reg20xx_df['Lteam_name'] == team_name_list[0])]
 team_games.head(5)
 
 
@@ -186,7 +186,7 @@ massey_ratings
 
 # In[93]:
 
-ratings2011_df = pd.DataFrame(
+ratings20xx_df = pd.DataFrame(
     np.column_stack((team_name_list, massey_ratings, colley_ratings)), 
     columns=['Team', 'Massey', 'Colley']
 )
@@ -194,21 +194,21 @@ ratings2011_df = pd.DataFrame(
 
 # In[94]:
 
-ratings2011_df.sort_values(by='Massey', ascending=False, inplace=True)
+ratings20xx_df.sort_values(by='Massey', ascending=False, inplace=True)
 
 
 # In[95]:
 
-ratings2011_df['Massey_rank'] = ratings2011_df['Massey'].rank(ascending=False)
+ratings20xx_df['Massey_rank'] = ratings20xx_df['Massey'].rank(ascending=False)
 
 
 # In[96]:
 
-ratings2011_df['Colley_rank'] = ratings2011_df['Colley'].rank(ascending=False)
+ratings20xx_df['Colley_rank'] = ratings20xx_df['Colley'].rank(ascending=False)
 
 
 # In[100]:
 
-ratings2011_df
+ratings20xx_df
 
 
