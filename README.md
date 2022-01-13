@@ -43,7 +43,12 @@ Sports Data Analytics
   (jupyter_project_env) [user@system ~]$pip3 install jupyter
   (jupyter_project_env) [user@system ~]$pip3 install --upgrade pip
   ```
-
+  - Run Jupter Notebook
+  ```
+  $jupyter notebook
+  ```
+  ![https://github.com/lel99999/dev_SportsDA/blob/main/jupyternotebook_browser_centos7-01.png](https://github.com/lel99999/dev_SportsDA/blob/main/jupyternotebook_browser_centos7-01.png) <br/>
+  
 ##### Using Massey and Colley Ratings
 - Massey 
   - A linear system using the score differential of games
