@@ -58,3 +58,13 @@ Sports Data Analytics
 
 ##### Download Ranking Data
 - [https://masseyratings.com/](https://masseyratings.com/) <br/>
+
+##### College Football
+- Ratings and Rankings 
+  - SP+ A tempo and opponent adjusted measure of college football efficiency
+  - FEI (Fremeau Efficiency Index) Ratings 
+    Represents the per-possession socring advantage each team would be expected to have on a neutral field agains an average opponent 
+  - F+ Ratings
+
+- Links
+  - [Analyzing Data and Film Concurrently](https://www.sloansportsconference.com/event/college-football-analytics-analyzing-tracking-data-and-film-concurrently-to-get-an-upper-hand) <br/>
